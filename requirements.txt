@@ -1,0 +1,144 @@
+# ==========================================
+# Weaviate Demo - Python Dependencies
+# ==========================================
+
+# ============ 核心依赖 ============
+# Weaviate Python 客户端（v4 版本，API 更简洁）
+weaviate-client>=4.4.0
+
+# 环境变量管理
+python-dotenv>=1.0.0
+
+# HTTP 请求
+requests>=2.31.0
+
+
+# ============ 向量化/嵌入模型 ============
+# OpenAI API（用于 text2vec-openai 和 GPT）
+openai>=1.12.0
+
+# 本地嵌入模型（可选，如不用 OpenAI）
+sentence-transformers>=2.3.0
+
+# Hugging Face Transformers（可选）
+transformers>=4.37.0
+
+
+# ============ LangChain 生态 ============
+# LangChain 核心库（用于 RAG 项目）
+langchain>=0.1.0
+langchain-community>=0.0.20
+langchain-openai>=0.0.5
+
+# LangChain Weaviate 集成
+langchain-weaviate>=0.0.1
+
+
+# ============ 数据处理 ============
+# 数据分析
+pandas>=2.0.0
+numpy>=1.24.0
+
+# JSON 处理增强
+ujson>=5.9.0
+
+# CSV 处理
+csv-reader>=1.2.0
+
+
+# ============ 文档处理 ============
+# PDF 处理
+PyPDF2>=3.0.0
+pdfplumber>=0.10.0
+
+# Word 文档处理
+python-docx>=1.1.0
+
+# Markdown 处理
+markdown>=3.5.0
+
+# 文本清洗
+beautifulsoup4>=4.12.0
+lxml>=5.1.0
+
+
+# ============ Web 开发（实战项目用）============
+# Web 框架
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+
+# Streamlit（用于 RAG Chatbot UI）
+streamlit>=1.31.0
+
+# WebSocket 支持
+websockets>=12.0
+
+
+# ============ 工具库 ============
+# 更好的日志
+loguru>=0.7.2
+
+# 进度条
+tqdm>=4.66.0
+
+# 日期时间处理
+python-dateutil>=2.8.2
+
+# YAML 配置
+PyYAML>=6.0.1
+
+# 命令行参数解析
+click>=8.1.7
+
+
+# ============ 测试 ============
+pytest>=8.0.0
+pytest-asyncio>=0.23.0
+pytest-cov>=4.1.0
+
+
+# ============ 代码质量 ============
+# 代码格式化
+black>=24.1.0
+isort>=5.13.0
+
+# 类型检查
+mypy>=1.8.0
+
+# Linting
+flake8>=7.0.0
+pylint>=3.0.0
+
+
+# ============ 性能监控（可选）============
+# 性能分析
+py-spy>=0.3.14
+
+# 内存分析
+memory-profiler>=0.61.0
+
+# Prometheus 客户端（监控指标）
+prometheus-client>=0.19.0
+
+
+# ============ 可视化（可选）============
+# 绘图
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# 交互式可视化
+plotly>=5.18.0
+
+
+# ============ 其他实用工具 ============
+# 重试机制
+tenacity>=8.2.3
+
+# 限流
+ratelimit>=2.2.1
+
+# UUID 生成
+shortuuid>=1.0.11
+
+# 时区处理
+pytz>=2024.1
